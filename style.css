@@ -168,7 +168,7 @@ header .menu{
 
 #planos{
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 80vh;
     padding-top: 50px;
 }
 
@@ -235,7 +235,7 @@ header .menu{
 
 footer{
     background-color: #122a57;
-    height: 70px;
+    height: 150px;
     display: flex;
     align-items: center;
 }
@@ -244,6 +244,8 @@ footer .footer{
     justify-content: space-between;
     color: white;
 }
+
+
 
 /* mobile */
 @media(max-width: 992px){
@@ -298,6 +300,27 @@ footer .footer{
     header .list-itens{
         margin: auto;
         margin-top: 10px;
+    }
+
+    #planos h2{
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+
+    #servicos h2{
+        margin-left: 10px;
+    }
+
+    .texto-apresentacao{
+        margin-left: 25px;
+    }
+
+    footer{
+        height: 80px;
+    }
+
+    footer .footer{
+        text-align: center;
     }
 
 }
